@@ -1,0 +1,17 @@
+.userCheckBox {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #dadada;
+  background: #d8d8d8;
+  cursor: pointer;
+  margin: 20px;
+  transition: 0.1s;
+}
+
+.userCheckBox.toggledOn {
+  background-color: #39628d;
+  background-image: url(/images/tick.png);
+  background-size: contain;
+  border: 1px solid #39628d;
+  transition: 0.1s;
+}

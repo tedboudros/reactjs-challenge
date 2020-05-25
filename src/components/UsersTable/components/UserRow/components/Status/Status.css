@@ -1,0 +1,34 @@
+.userStatus {
+  background: #d8d8d8;
+  width: 24px;
+  height: 14px;
+  border-radius: 7px;
+  border: 1px solid #979797;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.1s;
+  position: relative;
+  margin-right: 12px;
+}
+
+.userStatus.toggledOn {
+  transition: 0.1s;
+  background: #99d9d9;
+  border: 1px solid #6ab8b8;
+}
+
+.userStatus .circle {
+  transition: 0.1s;
+  border-radius: 100%;
+  background: #fff;
+  width: 11px;
+  height: 11px;
+  margin: 1px;
+  border: 1px solid #979797;
+}
+.userStatus.toggledOn .circle {
+  transition: 0.1s;
+  border: 1px solid #6ab8b8;
+  transform: translateX(9px);
+}
